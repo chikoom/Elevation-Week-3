@@ -1,0 +1,27 @@
+{
+  "name": "Squirrel",
+  "weight": 1.25,
+  "weightUnit": "KG",
+  "habitat": "Forest",
+  "isEndangered": false,
+  "nutrition" : [
+    {
+      "foodnames": ["nuts", "seeds"],
+      "dietPercent":35
+    },
+    {
+      "foodnames":  ["conifer", "cones"],
+      "dietPercent":20
+    },
+    {
+      "foodnames":  ["fruits"],
+      "dietPercent":35
+    },
+    {
+      "foodnames":  ["fungi"],
+      "dietPercent":10
+    }
+  ],
+  "predetors": ["human", "hawk", "owl", "coyote", "snake", "raccoons", "weasels", "foxes", "bobcat", "eagle", "cat", "dog"],
+  "taste": 5
+}
