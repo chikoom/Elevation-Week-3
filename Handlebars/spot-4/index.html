@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spot Check 1</title>
+</head>
+<body>
+
+
+  <div class="zoo">
+  </div>
+
+  <div class="languages">
+  </div>
+  
+  <script id="zoo-template" type="text/x-handlebars-template">
+    {{#each animals}}
+      <h1>
+        {{this}}
+      </h1>
+    {{/each }}
+  </script>
+
+  <script id="language-template" type="text/x-handlebars-template">
+    {{#each languages}}
+      <h4>
+        {{this}}
+      </h4>
+    {{/each }}
+  </script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
