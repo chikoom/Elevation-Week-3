@@ -1,0 +1,25 @@
+
+#search-box{
+    text-align: center;
+    border:2px solid #eee;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 10px;
+}
+.container-part{
+    border:2px solid #eee;
+    padding: 10px 20px;
+}
+.result-frame{
+    display: grid;
+    padding: 30px;
+}
+.addToFavorite, .removeFromFavorite{
+    width: 100px;
+    padding: 10px;
+}
